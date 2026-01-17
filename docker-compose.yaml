@@ -34,8 +34,6 @@ services:
     container_name: frontend-react
     ports:
       - "3000:80"
-    depends_on:
-      - backend
 
 volumes:
   mysql-data:
